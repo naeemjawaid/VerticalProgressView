@@ -64,7 +64,7 @@ verticalProgressView.progressImage = UIImage(named: "ProgressImage.png")
 let progress = verticalProgressView.progress
 
 // Set progress
-verticalProgressView.setProgress(0.6, animated: true)
+verticalProgressView.setProgress(0.6, animated: true)   // Perform on main thread
 
 // Set progress tint color
 verticalProgressView.progressTintColor = .red
