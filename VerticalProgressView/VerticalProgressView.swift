@@ -69,6 +69,12 @@ open class VerticalProgressView: UIView {
             progressView.trackImage = newValue
         }
     }
+
+    open var isAscending: Bool = true {
+        didSet {
+            rotateSlider()
+        }
+    }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -94,16 +100,10 @@ open class VerticalProgressView: UIView {
     }
     
     fileprivate func rotateSlider() {
-        if !ascending {
+        if isAscending {
             progressView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * -0.5)
         } else {
             progressView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * 0.5)
-        }
-    }
-    
-    open var ascending: Bool = false {
-        didSet {
-            rotateSlider()
         }
     }
     
