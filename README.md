@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 
 ![ViewController](http://i.imgur.com/8PuTB5e.png)
 
-Alternatively you can add A UIView and storyboard and set its class to VerticalProgressView, and play constraints there.
+Alternatively you can add a UIView and storyboard and set its class to VerticalProgressView, and play constraints there.
 
 Moreover if you dont want to use constraints simple add is like:
 
