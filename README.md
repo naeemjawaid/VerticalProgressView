@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 
 Alternatively you can add a UIView and storyboard and set its class to VerticalProgressView, and play constraints there.
 
-Moreover if you dont want to use constraints simple add it like:
+Moreover if you dont want to use AutoLayout, simply add it like:
 
 ```swift
 override func viewDidLoad() {
