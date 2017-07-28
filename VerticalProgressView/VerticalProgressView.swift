@@ -10,7 +10,7 @@ import UIKit
 
 open class VerticalProgressView: UIView {
     
-    let progressView: UIProgressView = {
+    private let progressView: UIProgressView = {
         let progressView = UIProgressView()
         progressView.translatesAutoresizingMaskIntoConstraints = false
         return progressView
