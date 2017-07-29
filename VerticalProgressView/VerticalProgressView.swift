@@ -101,9 +101,9 @@ open class VerticalProgressView: UIView {
     
     fileprivate func rotateSlider() {
         if isAscending {
-            progressView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * -0.5)
-        } else {
             progressView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * 0.5)
+        } else {
+            progressView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi) * -0.5)
         }
     }
     
