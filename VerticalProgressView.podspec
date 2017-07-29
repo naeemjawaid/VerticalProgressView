@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VerticalProgressView"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A vertical progress view created from UIProgressView."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ s.platform     = :ios, "8.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/naeemjawaid/VerticalProgressView.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/naeemjawaid/VerticalProgressView.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
